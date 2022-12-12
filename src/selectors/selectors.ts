@@ -1,10 +1,10 @@
-import { PostState } from "../types/types";
+import { PostsState } from "../types/types";
 
-const post = (state: PostState) => state.post.post;
+const posts = (state: PostsState) => state.posts.posts;
 
-const postLoading = (state: PostState) => state.post.postLoading;
+const postsLoading = (state: PostsState) => state.posts.postsLoading;
 
-export const postSelectors = {
-  post,
-  postLoading,
+export const postsSelectors = {
+  posts,
+  postsLoading,
 };

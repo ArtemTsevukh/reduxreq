@@ -1,10 +1,10 @@
-import { Post } from "./post";
+import { Posts } from "./posts";
 
-export interface PostState {
-  post: PostSlice;
+export interface PostsState {
+  posts: PostsSlice;
 }
 
-export interface PostSlice {
-  post: Post[];
-  postLoading: boolean;
+export interface PostsSlice {
+  posts: Posts[];
+  postsLoading: boolean;
 }
